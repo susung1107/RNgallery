@@ -6,12 +6,17 @@ export default StyleSheet.create({
   },
   top: {
     flex: 9,
+    padding: 15,
   },
   bottom: {
     flex: 1,
     justifyContent: 'flex-end',
     alignItems: 'center',
     paddingBottom: 30,
+  },
+  image: {
+    flex: 1,
+    resizeMode: 'contain',
   },
   button: {
     width: 100,

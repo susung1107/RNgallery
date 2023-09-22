@@ -43,6 +43,14 @@ const Home = () => {
           onPress={onLaunchImageLibrary}>
           <Text style={[styles.buttonText]}>사진 선택</Text>
         </TouchableOpacity>
+        {selectedImage && (
+          <>
+            <View style={[styles.ninja]} />
+            <TouchableOpacity style={[styles.button]}>
+              <Text style={[styles.buttonText]}>다운로드</Text>
+            </TouchableOpacity>
+          </>
+        )}
       </View>
     </View>
   );

@@ -4,14 +4,18 @@ export default StyleSheet.create({
   container: {
     flex: 1,
   },
+  ninja: {
+    width: 20,
+  },
   top: {
     flex: 9,
     padding: 15,
   },
   bottom: {
     flex: 1,
-    justifyContent: 'flex-end',
-    alignItems: 'center',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'flex-end',
     paddingBottom: 30,
   },
   image: {
